@@ -8,12 +8,12 @@ public class frequency {
         String str = obj.nextLine();
 
         System.out.println("Enter a character to count the frequency: ");
-        char ch = obj.next().charAt(0);
+        char ch = obj.next().charAt(0).toLowerCase();
 
         int count = 0;
 
         for (int i = str.length() - 1; i >= 0; i--) {
-            if (str.charAt(i) == ch) {
+            if (str.charAt(i).toLowerCase() == ch) {
                 count += 1;
             }
         }
