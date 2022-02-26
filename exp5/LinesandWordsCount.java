@@ -6,7 +6,7 @@ public class LinesandWordsCount {
         BufferedReader bin = new BufferedReader(fin);
 
         int characters = 0, words = 0, lines = 0;
-        String line = bin.readLine();;
+        String line = bin.readLine();
         
         while(line != null) {
             lines++;
