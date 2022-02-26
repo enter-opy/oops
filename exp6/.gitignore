@@ -1,1 +1,3 @@
 ShowException.class
+CustomException.class
+LowBalanceException.class
