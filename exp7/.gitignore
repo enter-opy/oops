@@ -6,3 +6,6 @@ BankingEnvironment.class
 Bank.class
 Withdraw.class
 Deposit.class
+OddEven.class
+Odd.class
+Even.class
